@@ -1,11 +1,11 @@
-package com.generation.BlogGabi.Repository;
+package com.generation.blogPessoal.repository;
 
 
 	import java.util.List;
 
-	import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.generation.BlogGabi.Model.Tema;
+import com.generation.blogPessoal.model.TemaModel;
 
 
 	public interface TemaRepository extends JpaRepository<TemaModel, Long> {
